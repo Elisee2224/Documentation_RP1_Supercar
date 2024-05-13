@@ -1,0 +1,46 @@
+CREATE TABLE admin_logs (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    admin_id INT NOT NULL,
+    admin_name VARCHAR(255) NOT NULL,
+    login_time TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+);
+
+
+
+
+
+DELIMITER //
+
+CREATE PROCEDURE log_admin_connection(IN admin_name VARCHAR(255), IN admin_id INT)
+BEGIN
+    INSERT INTO admin_logs (admin_id, admin_name) VALUES (admin_id, admin_name);
+END//
+
+DELIMITER ;
+
+
+
+
+
+
+
+
+DELIMITER //
+
+CREATE PROCEDURE log_admin_connection(IN admin_name VARCHAR(255), IN admin_id INT)
+BEGIN
+    INSERT INTO admin_logs (admin_id, admin_name) VALUES (admin_id, admin_name);
+END//
+
+DELIMITER ;
+
+
+
+
+
+
+
+
+
+Connexion reussie a MYSQL
+Fatal error: Uncaught mysqli_sql_exception: PROCEDURE elisee2023_supercar.log_admin_connection does not exist in C:\xampp\htdocs\supercar\admin\admin.php:46 Stack trace: #0 C:\xampp\htdocs\supercar\admin\admin.php(46): mysqli_stmt_execute(Object(mysqli_stmt)) #1 {main} thrown in C:\xampp\htdocs\supercar\admin\admin.php on line 46

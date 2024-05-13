@@ -1,0 +1,126 @@
+Chapitre 4
+
+Document 7 à 11
+
+Document 7
+
+
+CHAP.4 :
+DOC.7 :
+Quels sont les faits ?
+Les faits décrits dans le texte concernent deux start-ups, Teemo et Fidzup, qui utilisent des outils appelés "SDK" intégrés dans le code des applications mobiles de leurs partenaires. Ces outils leur permettent de collecter des données sur les utilisateurs de smartphones, même lorsque les applications ne sont pas en cours d'utilisation. Ces données, notamment la géolocalisation, sont utilisées pour permettre aux enseignes de cibler des clients potentiels à proximité de leurs magasins avec des offres ciblées. Les deux start-ups affirment traiter ces données avec le consentement des personnes concernées.
+ 
+Que reproche la CNIL à ces start-ups ?
+La CNIL reproche à Teemo et Fidzup de ne pas avoir recueilli correctement le consentement des utilisateurs pour le traitement de leurs données. Plus précisément, la CNIL constate que, dans le cas de Teemo, les personnes ne sont pas informées, lors du téléchargement des applications partenaires, qu'un "SDK" permettant de collecter leurs données, y compris la géolocalisation, est intégré. En ce qui concerne Fidzup, la CNIL observe que le consentement des consommateurs n'est pas correctement recueilli au moment de l'installation de l'application. De plus, l'utilisateur n'est pas informé de la finalité du ciblage publicitaire du traitement ni de l'identité du responsable du traitement. La durée de conservation des données de localisation par Teemo (13 mois) est également jugée disproportionnée.
+ 
+Pourquoi peut-on dire que les missions de la CNIL sont d'informer sur les droits, d'accompagner la mise en conformité au RGPD, de contrôler et de sanctionner ?
+La CNIL, en tant qu'autorité française de protection des données personnelles, a pour mission de protéger les droits et libertés des personnes en ce qui concerne le traitement de leurs données personnelles. Dans le cadre de cette mission, la CNIL a plusieurs rôles :
+ 
+Informer sur les droits : La CNIL informe les citoyens sur leurs droits en matière de protection des données et sur la manière dont leurs données sont traitées. Cela inclut le droit au consentement éclairé et la transparence sur l'utilisation des données.
+ 
+Accompagner la mise en conformité au RGPD : La CNIL a pour mission d'aider les organisations à se conformer au Règlement Général sur la Protection des Données (RGPD), notamment en fournissant des conseils et des orientations sur les meilleures pratiques en matière de protection des données.
+ 
+Contrôler : La CNIL effectue des contrôles sur les organisations traitant des données personnelles pour s'assurer qu'elles respectent les dispositions légales en vigueur. Dans le cas présent, la CNIL a effectué des contrôles sur Teemo et Fidzup pour évaluer la conformité de leurs pratiques.
+ 
+Sanctionner : Si des manquements sont constatés, la CNIL peut prendre des mesures correctives et, si nécessaire, prononcer des sanctions. Ces sanctions peuvent inclure des amendes, qui peuvent être significatives, notamment en vertu du RGPD.
+ 
+En résumé, la CNIL joue un rôle complet allant de l'information des citoyens à la sanction des organisations qui ne respectent pas les règles de protection des données.
+ 
+ 
+DOC8 :
+Quels sont les faits ?
+Un ingénieur a été licencié pour avoir utilisé sa messagerie professionnelle à des fins privées, ce qui a été découvert par sa société en le surveillant à son insu. Le différend a été porté devant la Cour européenne des droits de l'homme (CEDH), qui a donné raison à l'ingénieur. L'arrêt de la CEDH indique que les communications du salarié avec ses proches durant ses heures de travail relèvent de l'article 8 de la Convention européenne des droits de l'homme, garantissant le droit au respect de la vie privée et de la correspondance.
+ 
+Pourquoi la messagerie, les fichiers, SMS, et plus généralement les outils mis à disposition par l'employeur sont-ils présumés être utilisés à titre professionnel ?
+Les outils mis à disposition par l'employeur, tels que la messagerie, les fichiers, les SMS, et d'autres outils de communication, sont présumés être utilisés à titre professionnel en raison du contexte de travail. Les salariés utilisent généralement ces outils dans le cadre de leurs fonctions professionnelles pour communiquer avec leurs collègues, clients, ou pour accomplir des tâches liées à leur emploi. Cette présomption découle du fait que ces outils sont fournis par l'employeur dans le cadre de l'environnement professionnel.
+ 
+Comment les salariés de HappyNuddles peuvent-ils limiter le pouvoir de contrôle de l'employeur sur les emails et fichiers de leur ordinateur professionnel ?
+Pour limiter le pouvoir de contrôle de l'employeur sur les emails et fichiers de leur ordinateur professionnel, les salariés de HappyNuddles peuvent prendre certaines mesures :
+ 
+Utilisation à des fins professionnelles : Les salariés doivent veiller à utiliser les outils professionnels uniquement à des fins liées à leur travail. Cela peut inclure la messagerie électronique, les fichiers partagés, et d'autres outils de communication.
+ 
+Sensibilisation et consentement : Les employés doivent être informés par leur employeur sur la possibilité de surveillance des communications professionnelles. Une transparence accrue peut contribuer à établir un climat de confiance.
+ 
+Séparation des communications personnelles et professionnelles : Les salariés peuvent adopter des pratiques qui séparent clairement leurs communications personnelles de celles liées au travail. L'utilisation d'une messagerie personnelle distincte pendant les heures de travail peut être une option.
+ 
+Identification des messages personnels : Les employés peuvent marquer explicitement les messages, fichiers ou SMS qu'ils considèrent comme personnels. Cette identification peut servir de référence en cas de contrôle ultérieur.
+ 
+Il est toutefois important de noter que les employeurs ont également le droit de protéger leurs données et de surveiller les communications dans une certaine mesure, et un juste équilibre doit être trouvé entre le respect de la vie privée des employés et la sécurité des données de l'entreprise.
+ 
+ 
+DOC 9 :
+Justifiez le pouvoir de surveillance de l'employeur :
+Le pouvoir de surveillance de l'employeur est justifié par la nécessité de protéger les intérêts légitimes de l'entreprise, tels que la sécurité, la productivité, la confidentialité des informations, et la prévention des comportements nuisibles ou illégaux. La surveillance vise à garantir le bon fonctionnement de l'entreprise et à assurer le respect des règles internes, des lois et des régulations en vigueur. Cela inclut la protection des données, la prévention des abus, la sécurité des employés, et la préservation de l'image de l'entreprise.
+ 
+Quels sont ses moyens pour exercer ce pouvoir ?
+L'employeur dispose de divers moyens pour exercer son pouvoir de surveillance, sous réserve du respect des règles légales et des droits des salariés. Ces moyens peuvent inclure :
+ 
+Vidéosurveillance : L'employeur peut utiliser des caméras de vidéosurveillance pour surveiller certains espaces de travail afin de garantir la sécurité et prévenir les incidents.
+ 
+Traçage informatique : La surveillance des activités informatiques des employés peut être effectuée pour assurer la sécurité des systèmes, détecter les activités non autorisées, et garantir la conformité avec les politiques de l'entreprise.
+ 
+Enregistrements phoniques : L'employeur peut recourir à des enregistrements phoniques dans des situations spécifiques pour des raisons de sécurité ou de conformité, en respectant les règles légales.
+ 
+Autocommutateurs : L'utilisation de systèmes mesurant la durée et la fréquence des appels personnels émis peut être mise en place, généralement soumise à des restrictions et conditions.
+ 
+L'exercice de ces moyens de surveillance est strictement encadré par la loi et la CNIL. Avant leur mise en œuvre, l'employeur doit justifier de l'intérêt légitime de l'entreprise, consulter les représentants du personnel, informer la CNIL si nécessaire, et informer les salariés des procédés choisis. La surveillance doit être fondée sur la nature du travail à accomplir et proportionnée au but recherché, assurant ainsi un équilibre entre les intérêts de l'employeur et le respect des droits des salariés. Il est également souligné que des violations de ces règles rendent les informations obtenues non valables et ne peuvent justifier ni sanction ni licenciement.
+ 
+ 
+DOC. 10 :
+Quel est l'intérêt pour HappyNuddles de réaliser une telle charte informatique ?
+La réalisation d'une telle charte informatique par HappyNuddles présente plusieurs intérêts. Elle permet de définir clairement les règles et les bonnes pratiques en matière d'utilisation des outils informatiques, en particulier de la messagerie électronique, au sein de l'entreprise. Les principaux avantages incluent :
+ 
+Encadrement de l'utilisation personnelle : La charte établit des règles tolérant l'utilisation personnelle de la messagerie électronique tout en rappelant les conditions à respecter, telles que la législation en vigueur et les principes définis dans la charte elle-même.
+ 
+Contrôles et surveillance : La charte informe les utilisateurs que des contrôles automatiques et généralisés peuvent être effectués pour limiter les dysfonctionnements, tout en rappelant que les contrôles sur les fichiers identifiés comme personnels nécessitent la présence ou l'appel du salarié concerné.
+ 
+Sanctions disciplinaires : La charte énonce les sanctions disciplinaires pouvant être appliquées en cas de manquement aux règles et mesures de sécurité établies. Cela renforce la responsabilité des utilisateurs et contribue à maintenir un environnement informatique sécurisé.
+ 
+Conformité au RGPD : La charte inclut des dispositions relatives à la protection des données personnelles des salariés, notamment en soulignant les droits d'accès, de rectification, et le "droit à l'oubli". Cela aide l'entreprise à respecter les exigences du Règlement Général sur la Protection des Données (RGPD).
+ 
+Donnez des exemples de droits et obligations de l'employeur et du salarié :
+Droits de l'employeur :
+ 
+Droit de contrôler l'activité et les échanges des salariés dans le respect des règles en vigueur.
+Droit d'effectuer des contrôles automatiques et généralisés pour limiter les dysfonctionnements.
+Droit d'appliquer des sanctions disciplinaires en cas de non-respect des règles de sécurité.
+Droits du salarié :
+ 
+Droit à l'utilisation personnelle de la messagerie électronique, sous réserve du respect des règles établies.
+Droit à être informé en cas de contrôle sur les fichiers identifiés comme personnels.
+Droit à la présence ou à l'appel du salarié lors de l'ouverture des fichiers personnels par le service informatique.
+ 
+En quoi le RGPD réglemente-t-il aussi les données personnelles des salariés ?
+Le RGPD réglemente les données personnelles des salariés en imposant des règles strictes concernant la collecte, le traitement, la conservation et la protection de ces données. Dans le contexte de la charte informatique d'HappyNuddles, le RGPD se traduit par plusieurs aspects :
+ 
+Droits des salariés : Le RGPD accorde aux salariés des droits tels que le droit d'accès à leurs données, le droit de les rectifier, et le "droit à l'oubli" (effacement).
+ 
+Transparence : Les salariés doivent être informés de la finalité, du fondement juridique du traitement de leurs données, des destinataires de ces données, de la durée de conservation, et de leurs droits en matière de données personnelles.
+ 
+Responsabilité de l'entreprise : L'entreprise, en l'occurrence HappyNuddles, est responsable de garantir la conformité au RGPD en ce qui concerne le traitement des données personnelles de ses salariés.
+ 
+La charte informatique intègre ces aspects du RGPD en précisant les droits et les informations que l'entreprise fournit aux salariés concernant le traitement de leurs données personnelles. Cela contribue à instaurer un cadre légal et éthique pour la gestion des données au sein de l'entreprise.
+ 
+ 
+DOC 11 :
+Les différents employeurs mentionnés dans le texte, tels qu'Ikea, la RATP, France Télévisions et Leroy Merlin, ont abusé de leur pouvoir de direction au détriment de la vie privée de leurs salariés en autorisant ou en permettant des pratiques de fichage qui incluent des commentaires désobligeants et dégradants sur les employés. Ces abus se manifestent à travers plusieurs aspects :
+ 
+Commentaires désobligeants : Les employeurs ont permis l'existence de listes ou de fichiers comportant des commentaires peu flatteurs et dévalorisants à l'égard de leurs employés. Dans le cas de Leroy Merlin, les commentaires visaient des intérimaires de la plate-forme logistique de Valence et comprenaient des qualificatifs tels que « vicieux », « beurk », « branleur », et « mou du genou ».
+ 
+Violation de la vie privée : Les commentaires dans ces listes « sauvages » dépassent les limites légales en portant atteinte à la vie privée des salariés. Les propos dégradants évoqués dans le texte ne se limitent pas aux compétences professionnelles mais touchent des aspects personnels tels que l'apparence physique, le comportement, ou d'autres caractéristiques personnelles.
+ 
+Collecte illégale d'informations : Les employeurs ont autorisé la collecte d'informations allant au-delà de ce qui est permis par la loi. Les listes ou fichiers, dans le cas de Leroy Merlin, ont contenu des éléments qui ne devraient pas être enregistrés, tels que des qualificatifs injurieux et des jugements de valeur sur des caractéristiques personnelles.
+ 
+Non-respect du cadre légal : Les pratiques de fichage évoquées dans le texte vont à l'encontre des dispositions légales encadrant la collecte et le traitement des données personnelles des salariés. La loi, notamment l'article L. 1222-2 du Code du travail, limite les données pouvant être collectées à l'identité du collaborateur, sa formation, la gestion de sa carrière, l'évaluation professionnelle, ou encore la validation des acquis de l'expérience.
+
+
+Correction
+Doc 7
+
+
+
+
+BlockChain, ai, commerce en ligne plus facile et automatisée, impact UGC double pour développer activité d'une part et d'autre part peut faire face à des clients réticents d'utiliser cette nouvelle façon de commercer
+Edace: instaurer un climat de confiance afin de sécuriser transactions électroniques entre citoyens
+
+Document 2-5 chapitre 5

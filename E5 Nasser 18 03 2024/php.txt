@@ -1,0 +1,102 @@
+<?php
+include("bdconnect.php");
+
+// Vérifiez si un formulaire a été soumis
+if ($_SERVER['REQUEST_METHOD'] === 'POST') {
+    $idvoiture = $_POST['idvoiture'];
+    $marque = $_POST['marque'];
+    $modele = $_POST['modele'];
+    $annee = $_POST['annee'];
+    $description1 = $_POST['description1'];
+    $description = $_POST['description'];
+    $prix = $_POST['prix'];
+
+    // Gestion du téléchargement de la nouvelle image (si elle est modifiée)
+    if ($_FILES["nouvelle_image"]["error"] === 0) {
+        $targetDirectory = "../images/"; // Répertoire où vous souhaitez stocker les images
+        $targetFileName = $targetDirectory . basename($_FILES["nouvelle_image"]["name"]);
+
+        if (move_uploaded_file($_FILES["nouvelle_image"]["tmp_name"], $targetFileName)) {
+            // Le fichier a été téléchargé avec succès
+            $imagePath = "images/" . $_FILES["nouvelle_image"]["name"];
+        } else {
+            echo "Erreur lors du téléchargement de la nouvelle image.";
+            exit();
+        }
+    }
+
+    // Mettez à jour les informations de la voiture dans la base de données
+if (isset($imagePath)) {
+    // Si une nouvelle image a été téléchargée, mettez à jour le chemin de l'image
+    $updateSql = "UPDATE voitures SET marque='$marque', modele='$modele', annee='$annee', description1='$description1', description='".mysqli_real_escape_string($bdd, $description)."', prix='$prix', image='$imagePath' WHERE idvoiture = $idvoiture";
+} else {
+    // Si aucune nouvelle image n'a été téléchargée, ne mettez pas à jour le chemin de l'image
+    $updateSql = "UPDATE voitures SET marque='$marque', modele='$modele', annee='$annee', description1='$description1', description='".mysqli_real_escape_string($bdd, $description)."', prix='$prix' WHERE idvoiture = $idvoiture";
+}
+
+
+    if (mysqli_query($bdd, $updateSql)) {
+        echo "Les informations de la voiture ont été mises à jour avec succès.";
+    } else {
+        echo "Erreur lors de la mise à jour des informations de la voiture : " . mysqli_error($bdd);
+    }
+}
+
+// Récupérez les informations de la voiture à partir de la base de données
+if (isset($_GET['idvoiture'])) {
+    $idvoiture = $_GET['idvoiture'];
+    $sql = "SELECT * FROM voitures WHERE idvoiture = $idvoiture";
+    $result = mysqli_query($bdd, $sql);
+
+    if ($result && mysqli_num_rows($result) > 0) {
+        $row = mysqli_fetch_assoc($result);
+    } else {
+        echo "Aucune voiture trouvée avec cet identifiant.";
+        exit();
+    }
+} else {
+    echo "Identifiant de voiture non spécifié.";
+    exit();
+}
+
+mysqli_close($bdd);
+?>
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Modifier la voiture</title>
+</head>
+<body>
+    <h1>Modifier la voiture</h1>
+    <form method="post" enctype="multipart/form-data">
+        <input type="hidden" name="idvoiture" value="<?php echo $row['idvoiture']; ?>">
+
+        <label>Marque:</label>
+        <input type="text" name="marque" value="<?php echo $row['marque']; ?>"><br>
+
+        <label>Modèle:</label>
+        <input type="text" name="modele" value="<?php echo $row['modele']; ?>"><br>
+
+        <label>Année:</label>
+        <input type="text" name="annee" value="<?php echo $row['annee']; ?>"><br>
+
+        <label>Description courte:</label>
+        <textarea name="description1"><?php echo $row['description1']; ?></textarea><br>
+
+        <label>Description détaillée:</label>
+        <textarea name="description"><?php echo $row['description']; ?></textarea><br>
+
+        <label>Prix:</label>
+        <input type="text" name="prix" value="<?php echo $row['prix']; ?>"><br>
+
+        <label>Image actuelle:</label>
+        <img src="../<?php echo $row['image']; ?>" alt="Image de la voiture" width="100" height="100"><br>
+
+        <label>Nouvelle image:</label>
+        <input type="file" name="nouvelle_image"><br>
+
+        <input type="submit" value="Modifier">
+    </form>
+</body>
+</html>

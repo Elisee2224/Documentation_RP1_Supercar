@@ -1,0 +1,24 @@
+DELIMITER //
+
+CREATE TRIGGER before_update_prix
+BEFORE UPDATE ON voitures
+FOR EACH ROW
+BEGIN
+    DECLARE max_increase DECIMAL(10, 2);
+    DECLARE current_price DECIMAL(10, 2);
+
+    SET max_increase = OLD.prix * 0.25;
+    SET current_price = NEW.prix;
+
+    IF (current_price - OLD.prix) > max_increase THEN
+        SET NEW.prix = OLD.prix + max_increase;
+    END IF;
+END//
+
+DELIMITER ;
+
+
+
+
+
+147.300
